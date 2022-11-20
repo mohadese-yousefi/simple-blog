@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "simple-blog"
+version = "0.1.0"
+description = ""
+authors = ["mohadese-yousefi <mohadeseyusefi1997@gmail.com>"]
+readme = "README.md"
+packages = [{include = "simple_blog"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+django = "3.2"
+djangorestframework = "3.13.1"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
